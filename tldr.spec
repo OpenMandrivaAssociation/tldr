@@ -5,7 +5,7 @@ Summary:        Simplified and community-driven man pages
 
 License:        MIT
 URL:            https://github.com/tldr-pages/tldr-python-client
-Source0:        https://github.com/tldr-pages/tldr-python-client/archive/%{version}/%{name}-%{version}.tar.gz
+Source0:        https://github.com/tldr-pages/tldr-python-client/archive/%{version}/%{name}-python-client-%{version}.tar.gz
 BuildArch:      noarch
 
 BuildRequires:  pkgconfig(python)
