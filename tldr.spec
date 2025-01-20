@@ -47,7 +47,7 @@ popd
 #check
 #pytest -k "not test_error_message"
 
-%files -f %{pyproject_files}
+%files
 %license LICENSE.md
 %doc CHANGELOG.md README.md
 %{_bindir}/%{name}
