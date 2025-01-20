@@ -39,8 +39,8 @@ popd
 #pyproject_install
 #pyproject_save_files tldr
 
-install -Dp --mode=0644 %{name}.bash %{buildroot}%{bash_completions_dir}/%{name}
-install -Dp --mode=0644 %{name}.zsh  %{buildroot}%{zsh_completions_dir}/_%{name}
+#install -Dp --mode=0644 %{name}.bash %{buildroot}%{bash_completions_dir}/%{name}
+#install -Dp --mode=0644 %{name}.zsh  %{buildroot}%{zsh_completions_dir}/_%{name}
 
 #check
 #pytest -k "not test_error_message"
@@ -50,5 +50,5 @@ install -Dp --mode=0644 %{name}.zsh  %{buildroot}%{zsh_completions_dir}/_%{name}
 %doc CHANGELOG.md README.md
 %{_bindir}/%{name}
 %{_mandir}/man1/tldr.1*
-%{bash_completions_dir}/%{name}
-%{zsh_completions_dir}/_%{name}
+#{bash_completions_dir}/%{name}
+#{zsh_completions_dir}/_%{name}
