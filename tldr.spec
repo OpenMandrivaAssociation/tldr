@@ -15,7 +15,7 @@ BuildRequires:  python3dist(sphinx)
 BuildRequires:  python3dist(termcolor)
 BuildRequires:  python3dist(colorama)
 BuildRequires:  python3dist(shtab)
-#BuildRequires:  python3dist(sphinx-argparse)
+BuildRequires:  python3dist(sphinx-argparse)
 # dependencies for %%check
 #BuildRequires:  python3dist(pytest)
 
