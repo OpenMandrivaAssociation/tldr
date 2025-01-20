@@ -21,6 +21,8 @@ BuildRequires:  python3dist(sphinx-argparse)
 # dependencies for %%check
 #BuildRequires:  python3dist(pytest)
 
+Requires: python3.11dist(shtab)
+
 %description
 A Python command line client for tldr - Simplified and community-driven
 man pages http://tldr-pages.github.io/.
