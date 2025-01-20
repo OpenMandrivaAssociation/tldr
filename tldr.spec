@@ -1,3 +1,5 @@
+%undefine _debugsource_packages
+
 Name:           tldr
 Version:        3.3.0
 Release:        1
