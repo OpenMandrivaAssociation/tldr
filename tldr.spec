@@ -31,8 +31,8 @@ pushd docs
 make man
 popd
 %py_build
-%{python3} tldr.py --print-completion bash > tldr.bash
-%{python3} tldr.py --print-completion zsh > tldr.zsh
+#{python3} tldr.py --print-completion bash > tldr.bash
+#{python3} tldr.py --print-completion zsh > tldr.zsh
 
 %install
 %py_install
