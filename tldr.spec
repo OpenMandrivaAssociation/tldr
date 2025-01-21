@@ -29,6 +29,7 @@ man pages http://tldr-pages.github.io/.
 
 %prep
 %autosetup -n %{name}-python-client-%{version}
+sed -i 's/>=1\.3\.10//g' requirements.txt
 
 %build
 pushd docs
