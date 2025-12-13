@@ -1,8 +1,8 @@
 %undefine _debugsource_packages
 
 Name:           tldr
-Version:        3.3.0
-Release:        2
+Version:        3.4.3
+Release:        1
 Summary:        Simplified and community-driven man pages
 
 License:        MIT
