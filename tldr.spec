@@ -13,6 +13,7 @@ BuildArch:      noarch
 BuildRequires:  pkgconfig(python)
 # dependencies for make man
 BuildRequires:  make
+BuildRequires:  python3dist(pip)
 BuildRequires:  python3dist(sphinx)
 BuildRequires:  python3dist(termcolor)
 BuildRequires:  python3dist(colorama)
