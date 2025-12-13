@@ -2,7 +2,7 @@
 
 Name:           tldr
 Version:        3.3.0
-Release:        1
+Release:        2
 Summary:        Simplified and community-driven man pages
 
 License:        MIT
