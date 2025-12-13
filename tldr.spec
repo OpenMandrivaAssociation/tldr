@@ -23,7 +23,7 @@ BuildRequires:  python3dist(hatchling)
 # dependencies for %%check
 #BuildRequires:  python3dist(pytest)
 
-Requires: python3.11dist(shtab)
+Requires: python3dist(shtab)
 
 %description
 A Python command line client for tldr - Simplified and community-driven
