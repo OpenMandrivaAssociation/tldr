@@ -1,7 +1,7 @@
 %undefine _debugsource_packages
 
 Name:           tldr
-Version:        3.4.3
+Version:        3.4.4
 Release:        1
 Summary:        Simplified and community-driven man pages
 
@@ -30,7 +30,7 @@ A Python command line client for tldr - Simplified and community-driven
 man pages http://tldr-pages.github.io/.
 
 %prep
-%autosetup -n %{name}-python-client-%{version}
+%autosetup -n tldr-python-client-3.4.4
 #sed -i 's/>=1\.3\.10//g' requirements.txt
 
 %build
