@@ -63,11 +63,8 @@ popd
 %license LICENSE.md
 %doc CHANGELOG.md README.md
 %{_bindir}/%{name}
-%if %{with man}
+# The wheel already installs the man page.
 %{_mandir}/man1/tldr.1*
-%endif
-#{bash_completions_dir}/%{name}
-#{zsh_completions_dir}/_%{name}
 %{python3_sitelib}/__pycache__/tldr.cpython-*.pyc
 %{python3_sitelib}/tldr-%{version}.dist-info
 %{python3_sitelib}/tldr.py
